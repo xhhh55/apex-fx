@@ -1,0 +1,64 @@
+{
+  "name": "APEX INVEST — منصة الاستثمار الذكي",
+  "short_name": "APEX FX",
+  "description": "منصة مقارنة وسطاء الفوركس الأولى عربياً مع تحليل AI وإدارة محفظة متكاملة",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait-primary",
+  "theme_color": "#070A0F",
+  "background_color": "#070A0F",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["finance", "utilities", "productivity"],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "لوحة التحكم",
+      "short_name": "Dashboard",
+      "url": "/?tab=dashboard",
+      "description": "نظرة عامة على السوق"
+    },
+    {
+      "name": "مستشار AI",
+      "short_name": "AI Advisor",
+      "url": "/?tab=aiadvisor",
+      "description": "توصيات تداول ذكية"
+    },
+    {
+      "name": "إشارات التداول",
+      "short_name": "Signals",
+      "url": "/?tab=signals",
+      "description": "إشارات AI مباشرة"
+    },
+    {
+      "name": "المحفظة",
+      "short_name": "Portfolio",
+      "url": "/?tab=portfolio",
+      "description": "إدارة محفظتك الاستثمارية"
+    }
+  ],
+  "screenshots": [],
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  }
+}

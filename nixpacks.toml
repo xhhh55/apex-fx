@@ -1,0 +1,11 @@
+# nixpacks.toml — Forces Railway to build as a Python app
+# (needed because package.json is also present in the repo root)
+
+[phases.setup]
+nixPkgs = ["python311", "gcc"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "uvicorn main:app --host 0.0.0.0 --port $PORT"
